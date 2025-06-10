@@ -42,6 +42,19 @@
     </div>
 
     <div id="map"></div>
+    <input id="routeName"> <input id="busNumber"> <input id="scheduleTime">
+<table><tbody id="routeList"></tbody></table>
+
+<input id="startLocation" placeholder="lat,lng">
+<input id="endLocation" placeholder="lat,lng">
+<div id="fareOutput"></div>
+
+<div id="map" style="height: 400px;"></div>
+
+<button onclick="addRoute()">Add Route</button>
+<button onclick="startTracking()">Start Tracking</button>
+<button onclick="calculateFare()">Calculate Fare</button>
+
 
     <script src="script.js"></script>
 </body>
